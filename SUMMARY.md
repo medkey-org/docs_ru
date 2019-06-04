@@ -1,15 +1,14 @@
 # Table of contents
 
 * [Документация МИС Медкей](README.md)
-* [Untitled](untitled.md)
 
 ## Администрирование
 
-* [Untitled](administrirovanie/untitled.md)
+* [Установка](administrirovanie/untitled.md)
 
 ## Начало работы
 
-* [Untitled](nachalo-raboty/untitled.md)
+* [Быстрый старт](nachalo-raboty/untitled.md)
 
 ## Функции
 
