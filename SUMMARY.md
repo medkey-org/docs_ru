@@ -5,6 +5,7 @@
 ## Администрирование
 
 * [Установка](administrirovanie/untitled.md)
+* [Параметры конфигурации](administrirovanie/parametry-konfiguracii.md)
 
 ## Начало работы
 
