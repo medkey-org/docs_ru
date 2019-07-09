@@ -75,40 +75,44 @@
 * `bigint` — для целочисленных идентификаторов;
 * `uuid` — для UUID \(GUID\) идентификаторов.
 
-Внимание! Данный параметр должен быть задан _до_ развёртывания БД приложения. В дальнейшем не может быть изменён. Изменение значения параметра для ранее развёрнутого приложения гарантированно приведёт к его _неработоспособности_.
+{% hint style="warning" %}
+Данный параметр должен быть задан _до_ развёртывания БД приложения. В дальнейшем не может быть изменён. Изменение значения параметра для ранее развёрнутого приложения гарантированно приведёт к его _неработоспособности_.
+{% endhint %}
 
 Мы рекомендуем использовать идентификаторы `bigint`.
 
 ### WIDGET\_LOADER\_URL
 
-URI with starting slash of widget loader. By default use `/ui/widget-loader/factory`.
+URI компонента системы, используемого в качестве входной точки для загрузки виджетов. По умолчанию используется `/ui/widget-loader/factory`.
 
-Can be changed only in development purposes. For production use default value.
+{% hint style="info" %}
+Может быть изменён для потребностей разработки или особой сетевой конфигурации. Для продакшн-использования рекомендуется оставить значение по умолчанию.
+{% endhint %}
 
 ### APP\_TITLE
 
-Application title, which used at the top side of menu and at login form. Can be overwritted by parameter set in user interface.
+Заголовок приложения по умолчанию, который отображается в шапке приложения \(в основном меню\) и в заголовках страниц. Может быть переопределён значением, которое настраивается в пользовательском интерфейсе.
 
-You can set here any line of text you want to see in your UI.
+Вы можете задать в качестве значения произвольную строку. Не рекомендуется указывать название длиннее 20 символов.
 
 ### JOB\_TIMEOUT
 
-Timeout for background workers. By default `1200`, but can be increased.
+Таймаут в микросекундах для фоновых обработчиков. По умолчанию `1200`. 
+
+Если обработчики пишут в журнал приложения ошибки, связанные с таймаутом обработки, то значение данного параметра можно увеличить.
 
 ### AUTH\_WITH\_EMPLOYEE
 
-Can be `true` or `false`. If you want to disable login users without employee record — set value to `false` \(production value\).
-
-If you have service users without employee records — set this value to `true` to enable their authentication ability.
+Может принимать значения `true` и `false`. Если вы хотите запретить аутентификацию пользователей без связанной записи сотрудника — установите значение `false` \(используется в продакшн-окружении\).
 
 ### LANGUAGE
 
-Default application language. Can be overriden by default language param, which can be set at UI. It will be used for all users, which haven't set their personally preferred language.
+Язык приложения по умолчанию. Может быть переопределён настройкой \(параметр «Язык по умолчанию»\), которая указывается в пользовательском интерфейсе. Указанный язык будет установлен всем пользователям, которые не задали в своём профиле предпочтительный язык.
 
-Value can be:
+Доступные значения:
 
-* `ru` - for russian language;
-* `en` - for english language.
+* `ru` - русский язык;
+* `en` - английский язык.
 
 
 
