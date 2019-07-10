@@ -6,6 +6,8 @@
 
 * [Установка](administrirovanie/untitled.md)
 * [Параметры конфигурации](administrirovanie/parametry-konfiguracii.md)
+* [Системные требования](administrirovanie/sistemnye-trebovaniya.md)
+* [Пользователи и ACL](administrirovanie/polzovateli-i-acl.md)
 
 ## Начало работы
 
