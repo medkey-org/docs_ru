@@ -11,7 +11,7 @@
 
 ## Начало работы
 
-* [Быстрый старт](nachalo-raboty/untitled.md)
+* [Быстрый старт](nachalo-raboty/bystry-start.md)
 
 ## Функции
 
