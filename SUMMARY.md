@@ -16,4 +16,5 @@
 ## Функции
 
 * [Конструктор бизнес-процессов](funkcii/konstruktor-biznes-processov.md)
+* [Обзор функций](funkcii/obzor-funkcii.md)
 
