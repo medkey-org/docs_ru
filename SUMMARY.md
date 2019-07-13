@@ -29,8 +29,9 @@
 
 ## Для разработчиков
 
-* [Сборка из исходного кода](dlya-razrabotchikov/sborka-iz-iskhodnogo-koda.md)
+* [Архитектура приложения](dlya-razrabotchikov/arkhitektura-prilozheniya.md)
 * [Стек технологий](dlya-razrabotchikov/stek-tekhnologii.md)
+* [Сборка из исходного кода](dlya-razrabotchikov/sborka-iz-iskhodnogo-koda.md)
 * [Политика лицензирования](dlya-razrabotchikov/politika-licenzirovaniya.md)
 * [Политика релизов](dlya-razrabotchikov/politika-relizov.md)
 
