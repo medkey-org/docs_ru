@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Введение](README.md)
+* [Быстрый старт](bystry-start.md)
 
 ## Администрирование
 
@@ -17,7 +18,6 @@
 ## Функции
 
 * [Обзор функций](funkcii/obzor-funkcii.md)
-* [Быстрый старт](funkcii/bystry-start.md)
 * [Рабочие столы](funkcii/rabochie-stoly.md)
 * [Бизнес-процессы](funkcii/konstruktor-biznes-processov.md)
 * [Пациенты](funkcii/pacienty.md)
