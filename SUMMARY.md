@@ -30,4 +30,7 @@
 ## Для разработчиков
 
 * [Сборка из исходного кода](dlya-razrabotchikov/sborka-iz-iskhodnogo-koda.md)
+* [Стек технологий](dlya-razrabotchikov/stek-tekhnologii.md)
+* [Политика лицензирования](dlya-razrabotchikov/politika-licenzirovaniya.md)
+* [Политика релизов](dlya-razrabotchikov/politika-relizov.md)
 
