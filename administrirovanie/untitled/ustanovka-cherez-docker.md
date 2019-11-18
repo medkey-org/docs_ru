@@ -39,7 +39,7 @@
 
 #### **Шаги по установке**
 
-1. Склонировать основной репозиторий приложения: `git pull git@github.com:medkey-org/medkey.git` \(SSH\) либо `git pull https://github.com/medkey-org/medkey.git` \(HTTPS\)
+1. Склонировать основной репозиторий приложения: `git clone git@github.com:medkey-org/medkey.git` \(SSH\) либо `git clone https://github.com/medkey-org/medkey.git` \(HTTPS\)
 2. Перейти в склонированный каталог с репозиторием приложения: `cd ./medkey` \(путь может отличаться, зависит от развёртывания\)
 3. Выполнить команду: `docker-compose up -d --build && docker-compose exec mk /bin/bash -c "cd /var/www/medkey && composer install && cp .env.prod .env && php bin config-database/pg-uuid-activate && php bin migrate --interactive=0 && php bin seed Package && cd frontend && npm install && npm run build-prod"`
 
