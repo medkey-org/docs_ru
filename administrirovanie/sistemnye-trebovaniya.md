@@ -10,14 +10,13 @@ description: >-
 
 МИС Медкей может быть развёрнута на следующих операционных системах:
 
-* CentOS 7, CentOS 8;
-* Debian Linux;
-* Ubuntu Linux;
-* Microsoft Windows Server.
+* [CentOS 7, CentOS 8](untitled/ustanovka-na-centos.md);
+* [Debian Linux, Ubuntu Linux](untitled/ustanovka-na-debian-ubuntu.md);
+* [Microsoft Windows Server](untitled/ustanovka-na-ms-windows.md).
 
 МИС Медкей может быть установлена на хостинг с поддержкой PHP не ниже 7.0.
 
-МИС Медкей может быть запущена в среде контейнеризации Docker на любой программно-аппаратной платформе, поддерживающей Docker.
+МИС Медкей может быть [запущена в среде контейнеризации Docker](untitled/ustanovka-cherez-docker.md) на любой программно-аппаратной платформе, поддерживающей Docker.
 
 Дополнительно для работы МИС Медкей может использовать следующее свободное прикладное программное обеспечение:
 
