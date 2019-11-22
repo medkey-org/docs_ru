@@ -36,3 +36,7 @@
 * [Политика лицензирования](dlya-razrabotchikov/politika-licenzirovaniya.md)
 * [Политика релизов](dlya-razrabotchikov/politika-relizov.md)
 
+## Other languages
+
+* [English](https://docs.medkey.org/en/)
+
