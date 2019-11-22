@@ -5,12 +5,12 @@
 ## Администрирование
 
 * [Системные требования](administrirovanie/sistemnye-trebovaniya.md)
-* [Установка](administrirovanie/untitled/README.md)
-  * [Установка через Docker](administrirovanie/untitled/ustanovka-cherez-docker.md)
-  * [Установка на CentOS](administrirovanie/untitled/ustanovka-na-centos.md)
-  * [Установка на Debian/Ubuntu](administrirovanie/untitled/ustanovka-na-debian-ubuntu.md)
-  * [Установка на MS Windows](administrirovanie/untitled/ustanovka-na-ms-windows.md)
-  * [Установка на хостинг](administrirovanie/untitled/ustanovka-na-khosting.md)
+* [Установка](administrirovanie/ustanovka/README.md)
+  * [Установка через Docker](administrirovanie/ustanovka/ustanovka-cherez-docker.md)
+  * [Установка на CentOS](administrirovanie/ustanovka/ustanovka-na-centos.md)
+  * [Установка на Debian/Ubuntu](administrirovanie/ustanovka/ustanovka-na-debian-ubuntu.md)
+  * [Установка на MS Windows](administrirovanie/ustanovka/ustanovka-na-ms-windows.md)
+  * [Установка на хостинг](administrirovanie/ustanovka/ustanovka-na-khosting.md)
 * [Параметры конфигурации](administrirovanie/parametry-konfiguracii.md)
 * [Пользователи и ACL](administrirovanie/polzovateli-i-acl.md)
 * [НСИ \(справочники\)](administrirovanie/nsi-spravochniki.md)
